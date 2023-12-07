@@ -1,0 +1,6 @@
+
+chat-downloader
+google-generativeai
+playsound
+edge-tts
+googletrans

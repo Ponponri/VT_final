@@ -69,7 +69,8 @@ if __name__ == '__main__':
                 #     break
         except:
             print('error')
-            pass
+            continue
+        
         if(isMessage == False):
             # print('Wait to Start')
             continue
