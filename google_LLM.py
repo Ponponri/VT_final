@@ -28,7 +28,7 @@ def model(prompt):
     return completion.result
 
 def palm_chat(prompt):
-    palm.configure(api_key='AIzaSyCwuwNtITd1MuqfRKOyFw5-t85_FVmFZws')
+    palm.configure(api_key = API_KEY)
     # Use the palm.list_models function to find available models:
     models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
     model = models[0].name

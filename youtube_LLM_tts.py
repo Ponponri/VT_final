@@ -6,7 +6,7 @@ import edge_tts
 import time
 import google_translate
 
-url = 'https://www.youtube.com/watch?v=SSf89beqD_0&ab_channel=Ponponri'
+url = 'youtube channel'
 
 # VOICE = "zh-TW-HsiaoChenNeural"
 VOICE = "en-US-JennyNeural"
