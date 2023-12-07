@@ -1,11 +1,9 @@
 import google.generativeai as palm
-import os
-import time
 
 # Enter your api key
-API_KEY = 'YOUR_API_KEY'
+# API_KEY = 'YOUR_API_KEY'
 
-def model(prompt):
+def model(prompt, API_KEY):
     palm.configure(api_key = API_KEY)
     # Use the palm.list_models function to find available models:
     models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
@@ -27,7 +25,7 @@ def model(prompt):
 
     return completion.result
 
-def palm_chat(prompt):
+def palm_chat(prompt, API_KEY):
     palm.configure(api_key = API_KEY)
     # Use the palm.list_models function to find available models:
     models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]

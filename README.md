@@ -7,7 +7,7 @@ pip install -r requirements.txt
 
 ## Execute Auto-VT
 ```
-python youtube_LLM_tts.py
+python youtube_LLM_tts.py --token {your_LLM_token}
 ```
 
 ## Virtual human and telepresence final project.
