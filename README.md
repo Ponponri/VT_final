@@ -11,7 +11,6 @@ python youtube_LLM_tts.py --token {your_LLM_token}
 ```
 
 ## Virtual human and telepresence final project.
-![image](https://github.com/Ponponri/VT_final/assets/43375835/453aef34-74e3-4037-a859-6e15c4828cbe) 
+![thorium_jMB70dOnyV_realESRGAN](https://github.com/Ponponri/VT_final/assets/43375835/06317e1a-71c5-4c08-9705-6c952d9419cf)
 
-
---- Virtual YouTuber Alice だよ
+--- Virtual YouTuber Alice だよ ~
